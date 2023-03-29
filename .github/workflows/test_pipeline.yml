@@ -25,7 +25,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install wikipedia-api spacy textblob pandas
+          pip install wikipedia
           python -m spacy download en_core_web_sm
+
+      - name: Generate random pages
+        run: python generate_random_wikipedia_pages.py
 
       - name: Test pipeline
         run: python fetch_and_label_wikipedia_data.py
