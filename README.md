@@ -2,7 +2,7 @@
 An open-source solution for scraping, preprocessing, and labeling datasets from specified Wikipedia pages for using in training Natural Language Processing (NLP) models.
 
 
-![Pipeline Test](https://github.com/LibreCS/nlmate/actions/workflows/test_pipeline.yml/badge.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/LibreCS/nlmate) ![GitHub](https://img.shields.io/github/license/LibreCS/nlmate)
+![Pipeline Test](https://github.com/LibreCS/nlmate/actions/workflows/test_pipeline.yml/badge.svg)
 
 ## Prerequisites
 
