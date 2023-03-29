@@ -4,8 +4,6 @@
 #pip install pandas
 #pip install textblob
 
-
-
 import wikipediaapi
 import spacy
 import pandas as pd
